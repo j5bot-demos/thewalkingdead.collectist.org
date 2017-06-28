@@ -13,7 +13,7 @@ define('env-config', [
 	// basic configuration
 	requirejs.config({
 		// location for all non-app scripts
-		baseUrl: '/js/lib',
+		baseUrl: 'js/lib',
 		// add dependencies and export information for
 		// scripts not wrapped as modules
 		shim: {
@@ -30,7 +30,7 @@ define('env-config', [
 	// implement the environment-specific config
 	requirejs.config(config);
 	// run 'main' module
-	require(['/js/main.js']);
+	require(['js/main.js']);
 });
 
 /**

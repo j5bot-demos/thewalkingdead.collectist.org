@@ -22,7 +22,7 @@ define([
 	return function (app) {
 
 		// get the hostname for the site, so we show the right one :)
-		app.sitehost = alias(window.location.hostname.split('.')[0]);
+		app.sitehost = alias(window.location.pathname.substr(1).split('.')[0]);
 
 		/**
 		 * update things in the head of the document: the title and
@@ -60,7 +60,7 @@ define([
 
 		// load the app config for this site
 		$.ajax({
-			url: '/data/' + app.sitehost + '/config.json',
+			url: 'data/' + app.sitehost + '/config.json',
 			type: 'get',
 			contentType: 'application/json',
 			success: updatePage
