@@ -51,7 +51,7 @@ define([
 		// checklist source collection
 		series = new Collections.Series(null, {
 			model: Models.Series,
-			url: '/data/' + app.sitehost + '/series.json'
+			url: 'data/' + app.sitehost + '/series.json'
 		});
 
 		/**

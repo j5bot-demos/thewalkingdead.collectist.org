@@ -8,9 +8,9 @@
  */
 define([
 	'jquery',
-	'env/site-alias',
-	'app/modules/addthis',
-	'app/modules/checklist/walkthrough'
+	'../../env/site-alias',
+	'../../app/modules/addthis',
+	'../../app/modules/checklist/walkthrough'
 ], function ($, alias, addthisModule, walkthrough) {
 
 	/**
