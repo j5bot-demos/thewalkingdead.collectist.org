@@ -37,7 +37,7 @@ define([
 
 				series.set({ 'checklists': new Collections.Checklist([], {
 					localStorage: new Backbone.LocalStorage(
-						app.guest ? app.checklist.params.user : 'checklist'),
+						app.guest ? app.checklist.params.user : app.sitehost + '-checklist'),
 					model: org.Collectist.App.Models.Checklist,
 					series: series,
 					site: app.sitehost,
