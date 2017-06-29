@@ -1150,7 +1150,7 @@ footer { background-color: #fce3cd; color: black; font-size: 0.75em; margin-bott
   header .logo { position: fixed; width: 146px; height: 127px; }
   .login-container { width: auto; position: static; margin-bottom: 0px; top: auto; height: 0px; }
   #addthis_login_toolbox { position: absolute; top: -10px; margin-bottom: 0px; left: auto; background-color: transparent; border-width: 0px; }
-  .share-container { position: fixed; top: 140px; left: 0px; width: 16.66667%; }
+  .share-container { position: fixed; top: 140px; left: 50px; width: 16.66667%; }
   #login-pow { width: 284px; height: 245px; right: 100px; }
   #checklist-arrow { margin-left: -125px; width: 251px; height: 284px; }
   #share-bubble { left: auto; right: -170px; width: 232px; height: 157px; }

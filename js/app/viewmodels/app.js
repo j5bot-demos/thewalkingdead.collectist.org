@@ -36,7 +36,7 @@ define([
 				if (user && this.transformer) {
 					link = this.transformer();
 					// console.log(link);
-					org.Collectist.app.router.navigate('/collectist/:user/:link', false, {
+					org.Collectist.app.router.navigate('collectist/:user/:link', false, {
 						user: user.collectistid,
 						link: link
 					});
