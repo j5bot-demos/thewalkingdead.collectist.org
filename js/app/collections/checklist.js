@@ -16,10 +16,12 @@ define([
 	'app/models/checklist'
 ], function (Backbone, _, namespace) {
 
+	var app = org.Collectist.app;
+
 	namespace('org.Collectist.App.Collections', {
 		Checklist: Backbone.Collection.extend({
 			idAttribute: 'id',
-			localStorage: new Backbone.LocalStorage('checklist'),
+			localStorage: new Backbone.LocalStorage(app.sitehost + '-checklist'),
 			constructor: function (models, options) {
 				this.series = options.series;
 				this.checklist = options.checklist;
@@ -28,8 +30,7 @@ define([
 				this.constructor.__super__.constructor.apply(this, arguments);
 			},
 			initialize: function () {
-				var app = org.Collectist.app,
-					checklists = this;
+				var checklists = this;
 
 				if (checklists.params.collectist) {
 					checklists.series.transformer(checklists, checklists.params.collectist);

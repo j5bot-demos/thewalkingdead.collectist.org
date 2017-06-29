@@ -35,11 +35,11 @@ define([
 		function updatePage(response, status, xhr) {
 
 			function hideWalkthrough () {
-				window.localStorage.setItem('hide-walkthrough', 'true');
+				window.localStorage.setItem(app.sitehost + '-hide-walkthrough', 'true');
 			}
 
 			function showWalkthrough () {
-				if (window.localStorage.getItem('hide-walkthrough') !== 'true') {
+				if (window.localStorage.getItem(app.sitehost + '-hide-walkthrough') !== 'true') {
 					walkthrough(hideWalkthrough);
 				}
 			}
