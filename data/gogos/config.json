@@ -1,7 +1,7 @@
 {
 	"title": "GOGOs CRAZY BONES",
 	"default": "series-1",
-	"stylesheet": "/stylesheets/gogos/styles.css",
+	"stylesheet": "stylesheets/gogos/styles.css",
 	"facebook": {
 		"apikey": "381461265303365"
 	},

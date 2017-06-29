@@ -18,7 +18,7 @@
 
 <script type="text/template" id="menu-template">
 	<ul class="series-menu" data-bind="foreach: { data: series, as: 'seriesmenu' }">
-		<li><a data-bind="text: name, attr: { href: '/series/' + seriesmenu.id() }">Series</a></li>
+		<li><a data-bind="text: name, attr: { href: 'series/' + seriesmenu.id() }">Series</a></li>
 	</ul>
 </script>
 

@@ -17,7 +17,7 @@ require([
 				this.fetch();
 			},
 			url: function () {
-				return '/data/' + this.get('site') +
+				return 'data/' + this.get('site') +
 					'/' + (this.get('source') || 'items') + '.json';
 			}
 		})

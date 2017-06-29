@@ -24,7 +24,7 @@ $addthislogintoolboxbgcolor: rgba(255,250,240,0.95);
 #application {
 	background-color: $bodybgcolor;
 	background-repeat: repeat;
-	background-image: url(/images/bg/cardboard-repeating-light.jpg);
+	background-image: url(images/bg/cardboard-repeating-light.jpg);
 
 	*, h2, h3 {
 		font-family: Orbitron, Helvetica, sans-serif;
@@ -90,6 +90,7 @@ footer {
 
 	> a {
 		display: inline-block;
+		cursor: pointer;
 	}
 
 	.ssi-button {
@@ -102,13 +103,13 @@ footer {
 }
 
 #addthis_login_facebook {
-	background-image: url(/images/facebook-connect.png);
+	background-image: url(../images/facebook-connect.png);
 	background-repeat: no-repeat;
 	width: 89px;
 	height: 52px;
 }
 #addthis_login_google {
-	background-image: url(/images/google-connect.png);
+	background-image: url(../images/google-connect.png);
 	width: 89px;
 	height: 50px;
 }
@@ -116,7 +117,7 @@ footer {
 .share-container {
 	position: fixed;
 	top: 140px;
-	left: 0px;
+	left: 50px;
 	width: 16.6667%;
 	z-index: 51;
 }

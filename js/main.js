@@ -42,7 +42,8 @@ define('main', [
 
 	// start Backbone's history management
 	Backbone.history.start({
-		pushState: true
+		pushState: true,
+		root: window.location.pathname
 	});
 
 });

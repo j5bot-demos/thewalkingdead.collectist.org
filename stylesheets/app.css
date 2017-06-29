@@ -1069,7 +1069,7 @@ table thead tr th, table tfoot tr th, table tbody tr td, table tr td, table tfoo
 
 .row { max-width: 100%; }
 
-#application { background-color: #ffdd00; background-repeat: repeat; background-image: url(/images/bg/cardboard-repeating-light.jpg); }
+#application { background-color: #ffdd00; background-repeat: repeat; background-image: url(../images/bg/cardboard-repeating-light.jpg); }
 #application *, #application h2, #application h3 { font-family: Orbitron, Helvetica, sans-serif; }
 
 header { position: static; min-height: 82px; width: 100%; line-height: 22px; font-size: 1.2em; padding-left: 180px; background-color: #fce3cd; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(62%, #fce3cd), color-stop(100%, #ffc97f)); background-image: -webkit-linear-gradient(top, #fce3cd 62%, #ffc97f 100%); background-image: -moz-linear-gradient(top, #fce3cd 62%, #ffc97f 100%); background-image: -o-linear-gradient(top, #fce3cd 62%, #ffc97f 100%); background-image: linear-gradient(top, #fce3cd 62%, #ffc97f 100%); color: black; }
@@ -1081,14 +1081,14 @@ header .logo { position: fixed; top: 10px; left: 15px; z-index: 50; }
 footer { background-color: #fce3cd; color: black; font-size: 0.75em; margin-bottom: 0px; padding: 5px; text-align: center; }
 
 #addthis_login_toolbox { position: absolute; top: -10px; right: 20px; z-index: 51; text-align: center; }
-#addthis_login_toolbox > a { display: inline-block; }
+#addthis_login_toolbox > a { display: inline-block; cursor: pointer; }
 #addthis_login_toolbox .ssi-button { background-image: none; width: 92px; height: 52px; float: none; display: inline-block; }
 
-#addthis_login_facebook { background-image: url(/images/facebook-connect.png); background-repeat: no-repeat; width: 89px; height: 52px; }
+#addthis_login_facebook { background-image: url(../images/facebook-connect.png); background-repeat: no-repeat; width: 89px; height: 52px; }
 
-#addthis_login_google { background-image: url(/images/google-connect.png); width: 89px; height: 50px; }
+#addthis_login_google { background-image: url(../images/google-connect.png); width: 89px; height: 50px; }
 
-.share-container { position: fixed; top: 140px; left: 0px; width: 16.6667%; z-index: 51; }
+.share-container { position: fixed; top: 140px; left: 50px; width: 16.6667%; z-index: 51; }
 
 #addthis_share_toolbox { text-align: right; }
 #addthis_share_toolbox > a { float: none; display: inline-block; padding-left: 0px; padding-bottom: 0px; }
@@ -1177,8 +1177,8 @@ p { font-size: 10px; font-family: Helvetica,sans-serif; }
 .series p { text-align: left; padding: 15px; }
 .series ol { padding: 0px !important; }
 .series input[type=checkbox] { display: none; }
-.series .custom-checkbox { position: absolute; top: 5px; left: 5px; z-index: 3; background: url(/images/checkbox-unchecked-small.png) no-repeat bottom left; height: 20px; width: 25px; }
-.series input[type=checkbox]:checked + .custom-checkbox { background-image: url(/images/checkbox-checked-small.png); }
+.series .custom-checkbox { position: absolute; top: 5px; left: 5px; z-index: 3; background: url(../images/checkbox-unchecked-small.png) no-repeat bottom left; height: 20px; width: 25px; }
+.series input[type=checkbox]:checked + .custom-checkbox { background-image: url(../images/checkbox-checked-small.png); }
 
 /* list item */
 .series-item-list-item { background-color: white; position: relative; display: inline-block; border: solid 3px rgba(150, 60, 30, 0.5); -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; margin: 5px; -webkit-box-shadow: rgba(200, 60, 0, 0.5) 5px 5px 3px; -moz-box-shadow: rgba(200, 60, 0, 0.5) 5px 5px 3px; box-shadow: rgba(200, 60, 0, 0.5) 5px 5px 3px; }
